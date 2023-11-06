@@ -1,0 +1,93 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    background-color: #4285f4;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .hero {
+    background: url('Images/Google_Chrome_icon_.png.png') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    background-color: #4285f4;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .features {
+    background-color: #fff;
+    padding: 60px 0;
+  }
+  
+  .features h2 {
+    text-align: center;
+  }
+  
+  .feature {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .feature-icon {
+    width: 100px;
+    height: 100px;
+    background: url('Images/Google_Chrome_icon_.png.png') no-repeat center center;
+    background-size: contain;
+    margin: 0 auto 20px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
